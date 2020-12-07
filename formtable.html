@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2">
+        <tr><th>Name</th>
+            <th>Password</th>
+            <th>Gender</th>
+            <th>Hobbies</th>
+            <th>Technology</th>
+            <th>Comment</th>
+            <th>Register & Reset</th>
+        </tr>
+        <tr><td>
+            <form action="table.html" method="POST">
+           <input type="text"name="username"placeholder="Enter name"></td>
+            <td> <input type="password"name="password"placeholder="pass"></td>
+            <td> <input type="radio"name="gen1"check value="male">Male<input type="radio"name="gen1"check value="female">Female</td>
+            
+            <td><input type="checkbox"name="hobies"value="sports">Sports
+                <input type="checkbox"name="hobies"value="music">music
+                <input type="checkbox"name="hobies"value="dance">dance
+                <input type="checkbox"name="hobies"value="drama">drama</td>
+
+            <td>
+            <select name="Course" multiple size='3'>
+            <option>---select</option>
+            <option value="1">java</option>
+            <option>html</html></option>
+            <option>css</option>
+            <option>js</option>
+          </select></td>
+  
+        <td>
+        <textarea rows="5"cols="5"></textarea><br></td>
+        <td><input type="button"value="Register">
+        <input type="reset"name="Reset"><br></td>
+          </form>
+           
+        </tr>
+
+        
+        
+    </table>
+</body>
+</html>
